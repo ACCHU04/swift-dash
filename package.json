@@ -1,0 +1,12 @@
+{
+  "name": "e-commerce-root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Root manifest for Vercel framework detection.",
+  "dependencies": {
+    "next": "15.5.12"
+  },
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build"
+  }
+}

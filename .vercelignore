@@ -1,0 +1,19 @@
+# Exclude Docker files
+**/Dockerfile
+docker-compose.yml
+
+# Exclude virtual environment
+.venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Exclude test files
+**/pytest.ini
+**/*.test.*
+
+# Exclude data files (loaded at runtime via upload or Amazon fetch)
+data/
+
+# Exclude inner duplicate project folder
+E-COMMERCE/
